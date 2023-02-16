@@ -1,0 +1,1947 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Select = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Normal = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Auto = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Text = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIStroke_1 = Instance.new("UIStroke")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+Select.Name = "Select"
+Select.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Select.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Select
+Frame.BackgroundColor3 = Color3.fromRGB(9, 16, 56)
+Frame.Position = UDim2.new(0.299760193, 0, 0.330769241, 0)
+Frame.Size = UDim2.new(0.399280548, 0, 0.338461548, 0)
+Frame.Active = true
+Frame.Draggable = true
+Frame.Selectable = true
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 2.033
+UICorner.Parent = Frame
+UIStroke_1.Parent = Frame
+UIStroke_1.Thickness = 3
+UIStroke_1.Color = Color3.fromRGB(255, 255, 255)
+UIGradient_3.Parent = UIStroke_1
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(55, 255, 0)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.920258105, 0, -0.0909090936, 0)
+Close.Size = UDim2.new(0.12, 0,0.245, 0)
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Click:Connect(function()
+	Select:Destroy()
+end)
+
+UICorner_2.CornerRadius = UDim.new(0, 40)
+UICorner_2.Parent = Close
+
+Normal.Name = "Normal"
+Normal.Parent = Frame
+Normal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Normal.Position = UDim2.new(0.0469941385, 0, 0.357954532, 0)
+Normal.Size = UDim2.new(0.422391891, 0, 0.284090906, 0)
+Normal.Font = Enum.Font.FredokaOne
+Normal.Text = "Normal"
+Normal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Normal.TextScaled = true
+Normal.TextSize = 14.000
+Normal.TextWrapped = true
+Normal.MouseButton1Click:Connect(function()
+	Select:Destroy()
+end)
+Normal.MouseButton1Click:Connect(function()
+	-- Gui to Lua
+	-- Version: 3.2
+
+	-- Instances:
+
+	local hacker = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local Framesss = Instance.new("Frame")
+	local UICorner_2 = Instance.new("UICorner")
+	local UICorner_26 = Instance.new("UICorner")
+	local EarthButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local MoonButton = Instance.new("TextButton")
+	local UICorner_4 = Instance.new("UICorner")
+	local lavaButtton = Instance.new("TextButton")
+	local UICorner_5 = Instance.new("UICorner")
+	local Earth = Instance.new("Frame")
+	local UICorner_6 = Instance.new("UICorner")
+	local TUNNEL = Instance.new("TextButton")
+	local UICorner_7 = Instance.new("UICorner")
+	local BRIDGE = Instance.new("TextButton")
+	local UICorner_8 = Instance.new("UICorner")
+	local TOWER = Instance.new("TextButton")
+	local UICorner_9 = Instance.new("UICorner")
+	local OBBY = Instance.new("TextButton")
+	local UICorner_10 = Instance.new("UICorner")
+	local HOLE = Instance.new("TextButton")
+	local UICorner_11 = Instance.new("UICorner")
+	local CLIMB = Instance.new("TextButton")
+	local UICorner_12 = Instance.new("UICorner")
+	local CONVEYOR = Instance.new("TextButton")
+	local UICorner_13 = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local Hello = Instance.new("Frame")
+	local UICorner_14 = Instance.new("UICorner")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local Moon = Instance.new("Frame")
+	local UICorner_15 = Instance.new("UICorner")
+	local TRUSS = Instance.new("TextButton")
+	local UICorner_16 = Instance.new("UICorner")
+	local DOORS = Instance.new("TextButton")
+	local UICorner_17 = Instance.new("UICorner")
+	local TRAMPOLINE = Instance.new("TextButton")
+	local UICorner_18 = Instance.new("UICorner")
+	local CIRCLE = Instance.new("TextButton")
+	local UICorner_19 = Instance.new("UICorner")
+	local TextLabel_4 = Instance.new("TextLabel")
+	local lava = Instance.new("Frame")
+	local UICorner_20 = Instance.new("UICorner")
+	local SLIDE = Instance.new("TextButton")
+	local UICorner_21 = Instance.new("UICorner")
+	local STAIRS = Instance.new("TextButton")
+	local UICorner_22 = Instance.new("UICorner")
+	local LADDER = Instance.new("TextButton")
+	local UICorner_23 = Instance.new("UICorner")
+	local FALL = Instance.new("TextButton")
+	local UICorner_24 = Instance.new("UICorner")
+	local TextLabel_5 = Instance.new("TextLabel")
+	local MR_HackGame1 = Instance.new("TextLabel")
+	local z3ttar_100 = Instance.new("TextLabel")
+	local close = Instance.new("TextButton")
+	local UICorner_25 = Instance.new("UICorner")
+	local ice = Instance.new("Frame")
+	local JUMP = Instance.new("TextButton")
+	local LINE = Instance.new("TextButton")
+	local PIPE = Instance.new("TextButton")
+	local ZIGZAG = Instance.new("TextButton")
+	local iceButton = Instance.new("TextButton")
+	local iceTextLabel = Instance.new("TextLabel")
+	local UICorner_27 = Instance.new("UICorner")
+	local JUMP = Instance.new("TextButton")
+	local LINE = Instance.new("TextButton")
+	local PIPE = Instance.new("TextButton")
+	local ZIGZAG = Instance.new("TextButton")
+	local UICorner_28 = Instance.new("UICorner")
+	local UICorner_29 = Instance.new("UICorner")
+	local UICorner_30 = Instance.new("UICorner")
+	local UICorner_31 = Instance.new("UICorner")
+	local normal1 = Instance.new("TextLabel")
+	local UICorner_32 = Instance.new("UICorner")
+	local soon = Instance.new("TextButton")
+	local soonframe = Instance.new("Frame")
+	local TextLabel_10 = Instance.new("TextLabel")
+	local soonteleport = Instance.new("TextButton")
+	local soonteleport2 = Instance.new("TextButton")
+	local soonteleport3 = Instance.new("TextButton")
+	local soonteleport4 = Instance.new("TextButton")
+	local UICorner_35 = Instance.new("UICorner")
+	local UICorner_36 = Instance.new("UICorner")
+	local UICorner_37 = Instance.new("UICorner")
+	local UICorner_38 = Instance.new("UICorner")
+	local UICorner_39 = Instance.new("UICorner")
+
+
+	--Properties:
+
+	hacker.Name = "hacker"
+	hacker.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	hacker.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	hacker.ResetOnSpawn = false
+
+	Frame.Parent = hacker
+	Frame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+	Frame.Position = UDim2.new(0.155363768, 0, 0.240384579, 0)
+	Frame.Size = UDim2.new(0, 471, 0, 300)
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+
+
+	UICorner.Parent = Frame
+
+	Framesss.Name = "Framesss"
+	Framesss.Parent = Frame
+	Framesss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Framesss.BackgroundTransparency = 0.800
+	Framesss.Position = UDim2.new(0.787685752, 0, 0.13666667, 0)
+	Framesss.Size = UDim2.new(0, 100, 0, 259)
+
+	UICorner_2.Parent = Framesss
+
+	EarthButton.Name = "EarthButton"
+	EarthButton.Parent = Framesss
+	EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	EarthButton.Position = UDim2.new(0.170000002, 0, 0.108108103, 0)
+	EarthButton.Size = UDim2.new(0, 65, 0, 24)
+	EarthButton.Font = Enum.Font.SourceSans
+	EarthButton.Text = "Earth"
+	EarthButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	EarthButton.TextSize = 14.000
+	EarthButton.MouseButton1Click:Connect(function()
+		EarthButton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Earth.Visible = true
+		ice.Visible = false
+		Hello.Visible = false
+		Moon.Visible = false
+		soonframe.Visible = false
+		lava.Visible = false
+	end)
+
+	UICorner_3.Parent = EarthButton
+
+	MoonButton.Name = "MoonButton"
+	MoonButton.Parent = Framesss
+	MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MoonButton.Position = UDim2.new(0.170000002, 0, 0.247104242, 0)
+	MoonButton.Size = UDim2.new(0, 65, 0, 24)
+	MoonButton.Font = Enum.Font.SourceSans
+	MoonButton.Text = "Moon"
+	MoonButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	MoonButton.TextSize = 14.000
+	MoonButton.MouseButton1Click:Connect(function()
+		MoonButton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Moon.Visible = true
+		ice.Visible = false
+		Hello.Visible = false
+		Earth.Visible = false
+		lava.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_4.Parent = MoonButton
+
+	lavaButtton.Name = "lavaButtton"
+	lavaButtton.Parent = Framesss
+	lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	lavaButtton.Position = UDim2.new(0.170000002, 0, 0.389961392, 0)
+	lavaButtton.Size = UDim2.new(0, 65, 0, 24)
+	lavaButtton.Font = Enum.Font.SourceSans
+	lavaButtton.Text = "lava"
+	lavaButtton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	lavaButtton.TextSize = 14.000
+	lavaButtton.MouseButton1Click:Connect(function()
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lava.Visible = true
+		Hello.Visible = false
+		ice.Visible = false
+		Earth.Visible = false
+		Moon.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_5.Parent = lavaButtton
+
+	iceButton.Name = "iceButton"
+	iceButton.Parent = Framesss
+	iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	iceButton.Position = UDim2.new(0.17, 0,0.537, 0)
+	iceButton.Size = UDim2.new(0, 65, 0, 24)
+	iceButton.Font = Enum.Font.SourceSans
+	iceButton.Text = "ice"
+	iceButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	iceButton.TextSize = 14.000
+	iceButton.MouseButton1Click:Connect(function()
+		iceButton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ice.Visible = true
+		lava.Visible = false
+		Hello.Visible = false
+		Earth.Visible = false
+		Moon.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_26.Parent = iceButton
+
+	soon.Name = "soon"
+	soon.Parent = Framesss
+	soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soon.Position = UDim2.new(0.170000002, 0, 0.675996125, 0)
+	soon.Size = UDim2.new(0, 65, 0, 24)
+	soon.Font = Enum.Font.SourceSans
+	soon.Text = "soon"
+	soon.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soon.TextSize = 14.000
+	soon.MouseButton1Click:Connect(function()
+		soon.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soonframe.Visible = true
+		ice.Visible = false
+		lava.Visible = false
+		Hello.Visible = false
+		Earth.Visible = false
+		Moon.Visible = false
+	end)
+
+	UICorner_35.Parent = soon
+
+
+	iceTextLabel.Parent = ice
+	iceTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	iceTextLabel.BackgroundTransparency = 1.000
+	iceTextLabel.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	iceTextLabel.Size = UDim2.new(0, 200, 0, 27)
+	iceTextLabel.Font = Enum.Font.FredokaOne
+	iceTextLabel.Text = "ice"
+	iceTextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	iceTextLabel.TextScaled = true
+	iceTextLabel.TextSize = 14.000
+	iceTextLabel.TextWrapped = true
+
+
+	Earth.Name = "Earth"
+	Earth.Parent = Frame
+	Earth.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	Earth.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	Earth.Size = UDim2.new(0, 329, 0, 226)
+	Earth.Visible = false
+
+	UICorner_6.Parent = Earth
+
+	ice.Name = "ice"
+	ice.Parent = Frame
+	ice.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	ice.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	ice.Size = UDim2.new(0, 329, 0, 226)
+	ice.Visible = false
+
+	UICorner_27.Parent = ice
+
+	TUNNEL.Name = "TUNNEL"
+	TUNNEL.Parent = Earth
+	TUNNEL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TUNNEL.Position = UDim2.new(0.537993968, 0, 0.0442477874, 0)
+	TUNNEL.Size = UDim2.new(0, 102, 0, 42)
+	TUNNEL.Font = Enum.Font.SourceSans
+	TUNNEL.Text = "TUNNEL"
+	TUNNEL.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TUNNEL.TextSize = 14.000
+	TUNNEL.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(-40.17, -2.408, -3806.868))
+	end)
+
+
+	UICorner_7.Parent = TUNNEL
+
+	BRIDGE.Name = "BRIDGE"
+	BRIDGE.Parent = Earth
+	BRIDGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	BRIDGE.Position = UDim2.new(0.127659574, 0, 0.0442477874, 0)
+	BRIDGE.Size = UDim2.new(0, 102, 0, 42)
+	BRIDGE.Font = Enum.Font.SourceSans
+	BRIDGE.Text = "BRIDGE"
+	BRIDGE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	BRIDGE.TextSize = 14.000
+	BRIDGE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(39.583, -2.446, -3810.85))
+	end)
+
+
+	UICorner_8.Parent = BRIDGE
+
+	TOWER.Name = "TOWER"
+	TOWER.Parent = Earth
+	TOWER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TOWER.Position = UDim2.new(0.537993908, 0, 0.314159274, 0)
+	TOWER.Size = UDim2.new(0, 102, 0, 42)
+	TOWER.Font = Enum.Font.SourceSans
+	TOWER.Text = "TOWER"
+	TOWER.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TOWER.TextSize = 14.000
+	TOWER.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(301.822, 429.554, -3120.552))
+	end)
+
+
+	UICorner_9.Parent = TOWER
+
+	OBBY.Name = "OBBY"
+	OBBY.Parent = Earth
+	OBBY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	OBBY.Position = UDim2.new(0.127659559, 0, 0.309734523, 0)
+	OBBY.Size = UDim2.new(0, 102, 0, 42)
+	OBBY.Font = Enum.Font.SourceSans
+	OBBY.Text = "OBBY"
+	OBBY.TextColor3 = Color3.fromRGB(0, 0, 0)
+	OBBY.TextSize = 14.000
+	OBBY.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(254.396, -2.446, -3015.103))
+	end)
+
+
+	UICorner_10.Parent = OBBY
+
+	HOLE.Name = "HOLE"
+	HOLE.Parent = Earth
+	HOLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	HOLE.Position = UDim2.new(0.127659559, 0, 0.597345114, 0)
+	HOLE.Size = UDim2.new(0, 102, 0, 42)
+	HOLE.Font = Enum.Font.SourceSans
+	HOLE.Text = "HOLE"
+	HOLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	HOLE.TextSize = 14.000
+	HOLE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(37.521, -1998.598, -2961.001))
+	end)
+
+
+	UICorner_11.Parent = HOLE
+
+	CLIMB.Name = "CLIMB"
+	CLIMB.Parent = Earth
+	CLIMB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CLIMB.Position = UDim2.new(0.537993908, 0, 0.597345114, 0)
+	CLIMB.Size = UDim2.new(0, 102, 0, 42)
+	CLIMB.Font = Enum.Font.SourceSans
+	CLIMB.Text = "CLIMB"
+	CLIMB.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CLIMB.TextSize = 14.000
+	CLIMB.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(-40.766, 118.154, -2417.613))
+	end)
+
+
+	UICorner_12.Parent = CLIMB
+
+	CONVEYOR.Name = "CONVEYOR"
+	CONVEYOR.Parent = Earth
+	CONVEYOR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CONVEYOR.Position = UDim2.new(0.34346503, 0, 0.814159274, 0)
+	CONVEYOR.Size = UDim2.new(0, 102, 0, 42)
+	CONVEYOR.Font = Enum.Font.SourceSans
+	CONVEYOR.Text = "CONVEYOR"
+	CONVEYOR.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CONVEYOR.TextSize = 14.000
+	CONVEYOR.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(-709.222, -2.446, -3121.104))
+	end)
+
+
+	UICorner_13.Parent = CONVEYOR
+
+	TextLabel.Parent = Earth
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel.Font = Enum.Font.FredokaOne
+	TextLabel.Text = "Earth"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+
+	Hello.Name = "Hello"
+	Hello.Parent = Frame
+	Hello.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	Hello.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	Hello.Size = UDim2.new(0, 329, 0, 226)
+
+	UICorner_14.Parent = Hello
+
+	TextLabel_2.Parent = Hello
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.Position = UDim2.new(0.100303948, 0, 0.216814175, 0)
+	TextLabel_2.Size = UDim2.new(0, 263, 0, 127)
+	TextLabel_2.Font = Enum.Font.SourceSans
+	TextLabel_2.Text = "Hello!😁"
+	TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 14.000
+	TextLabel_2.TextWrapped = true
+
+	TextLabel_3.Parent = Hello
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_3.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_3.Font = Enum.Font.FredokaOne
+	TextLabel_3.Text = "Hello"
+	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.TextScaled = true
+	TextLabel_3.TextSize = 14.000
+	TextLabel_3.TextWrapped = true
+
+	normal1.Parent = Frame
+	normal1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	normal1.BackgroundTransparency = 0.000
+	normal1.Position = UDim2.new(0.571, 0,0.052, 0)
+	normal1.Size = UDim2.new(0, 77,0, 22)
+	normal1.Font = Enum.Font.FredokaOne
+	normal1.Text = "normal"
+	normal1.TextColor3 = Color3.fromRGB(0, 0, 0)
+	normal1.TextScaled = true
+	normal1.TextSize = 14.000
+	normal1.TextWrapped = true
+
+	UICorner_32.Parent = normal1
+
+	MR_HackGame1.Parent = Frame
+	MR_HackGame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MR_HackGame1.BackgroundTransparency = 1.000
+	MR_HackGame1.Position = UDim2.new(-0, 0,-0.108, 0)
+	MR_HackGame1.Size = UDim2.new(0, 219,0, 37)
+	MR_HackGame1.Font = Enum.Font.FredokaOne
+	MR_HackGame1.Text = "BY: MR_HackGame1"
+	MR_HackGame1.TextColor3 = Color3.fromRGB(255, 255, 255)
+	MR_HackGame1.TextScaled = true
+	MR_HackGame1.TextSize = 14.000
+	MR_HackGame1.TextWrapped = true
+
+	z3ttar_100.Parent = Frame
+	z3ttar_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	z3ttar_100.BackgroundTransparency = 1.000
+	z3ttar_100.Position = UDim2.new(0.481, 0,-0.091, 0)
+	z3ttar_100.Size = UDim2.new(0, 200,0, 27)
+	z3ttar_100.Font = Enum.Font.FredokaOne
+	z3ttar_100.Text = "BY: z3ttar_100"
+	z3ttar_100.TextColor3 = Color3.fromRGB(255, 255, 255)
+	z3ttar_100.TextScaled = true
+	z3ttar_100.TextSize = 14.000
+	z3ttar_100.TextWrapped = true
+
+	Moon.Name = "Moon"
+	Moon.Parent = Frame
+	Moon.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	Moon.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	Moon.Size = UDim2.new(0, 329, 0, 226)
+	Moon.Visible = false
+
+	UICorner_15.Parent = Moon
+
+	TRUSS.Name = "TRUSS"
+	TRUSS.Parent = Moon
+	TRUSS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TRUSS.Position = UDim2.new(0.537993968, 0, 0.230088502, 0)
+	TRUSS.Size = UDim2.new(0, 102, 0, 42)
+	TRUSS.Font = Enum.Font.SourceSans
+	TRUSS.Text = "TRUSS"
+	TRUSS.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TRUSS.TextSize = 14.000
+	TRUSS.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(1064.069, 349.554, -3200.165))
+	end)
+
+
+	UICorner_16.Parent = TRUSS
+
+	DOORS.Name = "DOORS"
+	DOORS.Parent = Moon
+	DOORS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	DOORS.Position = UDim2.new(0.127659574, 0, 0.230088502, 0)
+	DOORS.Size = UDim2.new(0, 102, 0, 42)
+	DOORS.Font = Enum.Font.SourceSans
+	DOORS.Text = "DOORS"
+	DOORS.TextColor3 = Color3.fromRGB(0, 0, 0)
+	DOORS.TextSize = 14.000
+	DOORS.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(984.04, -2.308, -3497.258))
+	end)
+
+
+	UICorner_17.Parent = DOORS
+
+	TRAMPOLINE.Name = "TRAMPOLINE"
+	TRAMPOLINE.Parent = Moon
+	TRAMPOLINE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TRAMPOLINE.Position = UDim2.new(0.127659559, 0, 0.575221241, 0)
+	TRAMPOLINE.Size = UDim2.new(0, 102, 0, 42)
+	TRAMPOLINE.Font = Enum.Font.SourceSans
+	TRAMPOLINE.Text = "TRAMPOLINE"
+	TRAMPOLINE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TRAMPOLINE.TextSize = 14.000
+	TRAMPOLINE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(1063.496, 11.754, -2786.861))
+	end)
+
+
+	UICorner_18.Parent = TRAMPOLINE
+
+	CIRCLE.Name = "CIRCLE"
+	CIRCLE.Parent = Moon
+	CIRCLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CIRCLE.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	CIRCLE.Size = UDim2.new(0, 102, 0, 42)
+	CIRCLE.Font = Enum.Font.SourceSans
+	CIRCLE.Text = "CIRCLE"
+	CIRCLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CIRCLE.TextSize = 14.000
+	CIRCLE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(984.578, -2.246, -2759.796))
+	end)
+
+
+	UICorner_19.Parent = CIRCLE
+
+	TextLabel_4.Parent = Moon
+	TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.BackgroundTransparency = 1.000
+	TextLabel_4.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_4.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_4.Font = Enum.Font.FredokaOne
+	TextLabel_4.Text = "Moon"
+	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.TextScaled = true
+	TextLabel_4.TextSize = 14.000
+	TextLabel_4.TextWrapped = true
+
+	lava.Name = "lava"
+	lava.Parent = Frame
+	lava.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	lava.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	lava.Size = UDim2.new(0, 329, 0, 226)
+	lava.Visible = false
+
+	UICorner_20.Parent = lava
+
+	SLIDE.Name = "SLIDE"
+	SLIDE.Parent = lava
+	SLIDE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SLIDE.Position = UDim2.new(0.537993968, 0, 0.230088502, 0)
+	SLIDE.Size = UDim2.new(0, 102, 0, 42)
+	SLIDE.Font = Enum.Font.SourceSans
+	SLIDE.Text = "SLIDE"
+	SLIDE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	SLIDE.TextSize = 14.000
+	SLIDE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(2088.227, -165.546, -3353.441))
+	end)
+
+
+	UICorner_21.Parent = SLIDE
+
+	STAIRS.Name = "STAIRS"
+	STAIRS.Parent = lava
+	STAIRS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	STAIRS.Position = UDim2.new(0.127659574, 0, 0.230088502, 0)
+	STAIRS.Size = UDim2.new(0, 102, 0, 42)
+	STAIRS.Font = Enum.Font.SourceSans
+	STAIRS.Text = "STAIRS"
+	STAIRS.TextColor3 = Color3.fromRGB(0, 0, 0)
+	STAIRS.TextSize = 14.000
+	STAIRS.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(2007.742, 121.654, -3490.793))
+	end)
+
+
+	UICorner_22.Parent = STAIRS
+
+	LADDER.Name = "LADDER"
+	LADDER.Parent = lava
+	LADDER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LADDER.Position = UDim2.new(0.127659559, 0, 0.575221241, 0)
+	LADDER.Size = UDim2.new(0, 102, 0, 42)
+	LADDER.Font = Enum.Font.SourceSans
+	LADDER.Text = "LADDER"
+	LADDER.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LADDER.TextSize = 14.000
+	LADDER.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(2087.908, 203.092, -2940.634))
+	end)
+
+
+	UICorner_23.Parent = LADDER
+
+	FALL.Name = "FALL"
+	FALL.Parent = lava
+	FALL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	FALL.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	FALL.Size = UDim2.new(0, 102, 0, 42)
+	FALL.Font = Enum.Font.SourceSans
+	FALL.Text = "FALL"
+	FALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+	FALL.TextSize = 14.000
+	FALL.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(2008.887, -1998.589, -2941.12))
+	end)
+
+
+	UICorner_24.Parent = FALL
+
+	JUMP.Name = "JUMP"
+	JUMP.Parent = ice
+	JUMP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	JUMP.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	JUMP.Size = UDim2.new(0, 102, 0, 42)
+	JUMP.Font = Enum.Font.SourceSans
+	JUMP.Text = "JUMP"
+	JUMP.TextColor3 = Color3.fromRGB(0, 0, 0)
+	JUMP.TextSize = 14.000
+	JUMP.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(3113, 162, -3177))
+	end)
+
+
+	UICorner_28.Parent = JUMP
+
+	PIPE.Name = "PIPE"
+	PIPE.Parent = ice
+	PIPE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	PIPE.Position = UDim2.new(0.538, 0,0.23, 0)
+	PIPE.Size = UDim2.new(0, 102, 0, 42)
+	PIPE.Font = Enum.Font.SourceSans
+	PIPE.Text = "PIPE"
+	PIPE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	PIPE.TextSize = 14.000
+	PIPE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(3032, 0, -2638))
+	end)
+
+
+	UICorner_29.Parent = PIPE
+
+	LINE.Name = "LINE"
+	LINE.Parent = ice
+	LINE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LINE.Position = UDim2.new(0.128, 0,0.575, 0)
+	LINE.Size = UDim2.new(0, 102, 0, 42)
+	LINE.Font = Enum.Font.SourceSans
+	LINE.Text = "LINE"
+	LINE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LINE.TextSize = 14.000
+	LINE.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(3034, 0, -3423))
+	end)
+
+
+	UICorner_30.Parent = LINE
+
+	ZIGZAG.Name = "ZIGZAG"
+	ZIGZAG.Parent = ice
+	ZIGZAG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ZIGZAG.Position = UDim2.new(0.128, 0,0.23, 0)
+	ZIGZAG.Size = UDim2.new(0, 102, 0, 42)
+	ZIGZAG.Font = Enum.Font.SourceSans
+	ZIGZAG.Text = "ZIGZAG"
+	ZIGZAG.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ZIGZAG.TextSize = 14.000
+	ZIGZAG.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		player.Character:MoveTo(Vector3.new(3119, 0, -2745))
+	end)
+
+	soonframe.Name = "soonframe"
+	soonframe.Parent = Frame
+	soonframe.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	soonframe.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	soonframe.Size = UDim2.new(0, 329, 0, 226)
+	soonframe.Visible = false
+
+	soonteleport.Name = "soonteleport"
+	soonteleport.Parent = soonframe
+	soonteleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	soonteleport.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport.Font = Enum.Font.SourceSans
+	soonteleport.Text = "soonteleport"
+	soonteleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport.TextSize = 14.000
+
+	UICorner_36.Parent = soonteleport
+
+	soonteleport2.Name = "soonteleport2"
+	soonteleport2.Parent = soonframe
+	soonteleport2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport2.Position = UDim2.new(0.128000006, 0, 0.574999988, 0)
+	soonteleport2.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport2.Font = Enum.Font.SourceSans
+	soonteleport2.Text = "soonteleport2"
+	soonteleport2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport2.TextSize = 14.000
+
+	UICorner_37.Parent = soonteleport2
+
+	soonteleport3.Name = "soonteleport3"
+	soonteleport3.Parent = soonframe
+	soonteleport3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport3.Position = UDim2.new(0.537999988, 0, 0.230000004, 0)
+	soonteleport3.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport3.Font = Enum.Font.SourceSans
+	soonteleport3.Text = "soonteleport3"
+	soonteleport3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport3.TextSize = 14.000
+
+	UICorner_38.Parent = soonteleport3
+
+	soonteleport4.Name = "soonteleport4"
+	soonteleport4.Parent = soonframe
+	soonteleport4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport4.Position = UDim2.new(0.128000006, 0, 0.230000004, 0)
+	soonteleport4.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport4.Font = Enum.Font.SourceSans
+	soonteleport4.Text = "soonteleport4"
+	soonteleport4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport4.TextSize = 14.000
+
+	UICorner_39.Parent = soonteleport4
+
+	UICorner_31.Parent = ZIGZAG
+
+
+	TextLabel_5.Parent = lava
+	TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.BackgroundTransparency = 1.000
+	TextLabel_5.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_5.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_5.Font = Enum.Font.FredokaOne
+	TextLabel_5.Text = "lava"
+	TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.TextScaled = true
+	TextLabel_5.TextSize = 14.000
+	TextLabel_5.TextWrapped = true
+
+	TextLabel_10.Parent = soonframe
+	TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_10.BackgroundTransparency = 1.000
+	TextLabel_10.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_10.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_10.Font = Enum.Font.FredokaOne
+	TextLabel_10.Text = "..."
+	TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_10.TextScaled = true
+	TextLabel_10.TextSize = 14.000
+	TextLabel_10.TextWrapped = true
+
+	close.Name = "close"
+	close.Parent = Frame
+	close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	close.Position = UDim2.new(0.925689995, 0, -0.0400000028, 0)
+	close.Size = UDim2.new(0, 50, 0, 50)
+	close.Font = Enum.Font.FredokaOne
+	close.Text = "X"
+	close.TextColor3 = Color3.fromRGB(0, 0, 0)
+	close.TextScaled = true
+	close.TextSize = 14.000
+	close.TextWrapped = true
+	close.MouseButton1Click:Connect(function()
+		hacker:Destroy()
+	end)
+
+	UICorner_25.CornerRadius = UDim.new(0, 100)
+	UICorner_25.Parent = close
+end)
+
+UICorner_3.Parent = Normal
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(126, 255, 66)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 255, 64))}
+UIGradient.Parent = Normal
+
+Auto.Name = "Auto"
+Auto.Parent = Frame
+Auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Auto.Position = UDim2.new(0.537709415, 0, 0.357954532, 0)
+Auto.Size = UDim2.new(0.422391891, 0, 0.284090906, 0)
+Auto.Font = Enum.Font.FredokaOne
+Auto.Text = "Auto😎"
+Auto.TextColor3 = Color3.fromRGB(0, 0, 0)
+Auto.TextScaled = true
+Auto.TextSize = 14.000
+Auto.TextWrapped = true
+Auto.MouseButton1Click:Connect(function()
+	Select:Destroy()
+end)
+Auto.MouseButton1Click:Connect(function()
+	-- Gui to Lua
+	-- Version: 3.2
+
+	-- Instances:
+
+	local hacker = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local Framesss = Instance.new("Frame")
+	local UICorner_2 = Instance.new("UICorner")
+	local UICorner_26 = Instance.new("UICorner")
+	local EarthButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local MoonButton = Instance.new("TextButton")
+	local UICorner_4 = Instance.new("UICorner")
+	local lavaButtton = Instance.new("TextButton")
+	local UICorner_5 = Instance.new("UICorner")
+	local Earth = Instance.new("Frame")
+	local UICorner_6 = Instance.new("UICorner")
+	local TUNNEL = Instance.new("TextButton")
+	local UICorner_7 = Instance.new("UICorner")
+	local BRIDGE = Instance.new("TextButton")
+	local UICorner_8 = Instance.new("UICorner")
+	local TOWER = Instance.new("TextButton")
+	local UICorner_9 = Instance.new("UICorner")
+	local OBBY = Instance.new("TextButton")
+	local UICorner_10 = Instance.new("UICorner")
+	local HOLE = Instance.new("TextButton")
+	local UICorner_11 = Instance.new("UICorner")
+	local CLIMB = Instance.new("TextButton")
+	local UICorner_12 = Instance.new("UICorner")
+	local CONVEYOR = Instance.new("TextButton")
+	local UICorner_13 = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local Hello = Instance.new("Frame")
+	local UICorner_14 = Instance.new("UICorner")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local Moon = Instance.new("Frame")
+	local UICorner_15 = Instance.new("UICorner")
+	local TRUSS = Instance.new("TextButton")
+	local UICorner_16 = Instance.new("UICorner")
+	local DOORS = Instance.new("TextButton")
+	local UICorner_17 = Instance.new("UICorner")
+	local TRAMPOLINE = Instance.new("TextButton")
+	local UICorner_18 = Instance.new("UICorner")
+	local CIRCLE = Instance.new("TextButton")
+	local UICorner_19 = Instance.new("UICorner")
+	local TextLabel_4 = Instance.new("TextLabel")
+	local lava = Instance.new("Frame")
+	local UICorner_20 = Instance.new("UICorner")
+	local SLIDE = Instance.new("TextButton")
+	local UICorner_21 = Instance.new("UICorner")
+	local STAIRS = Instance.new("TextButton")
+	local UICorner_22 = Instance.new("UICorner")
+	local LADDER = Instance.new("TextButton")
+	local UICorner_23 = Instance.new("UICorner")
+	local FALL = Instance.new("TextButton")
+	local UICorner_24 = Instance.new("UICorner")
+	local TextLabel_5 = Instance.new("TextLabel")
+	local MR_HackGame1 = Instance.new("TextLabel")
+	local z3ttar_100 = Instance.new("TextLabel")
+	local close = Instance.new("TextButton")
+	local UICorner_25 = Instance.new("UICorner")
+	local ice = Instance.new("Frame")
+	local JUMP = Instance.new("TextButton")
+	local LINE = Instance.new("TextButton")
+	local PIPE = Instance.new("TextButton")
+	local ZIGZAG = Instance.new("TextButton")
+	local iceButton = Instance.new("TextButton")
+	local iceTextLabel = Instance.new("TextLabel")
+	local UICorner_27 = Instance.new("UICorner")
+	local JUMP = Instance.new("TextButton")
+	local LINE = Instance.new("TextButton")
+	local PIPE = Instance.new("TextButton")
+	local ZIGZAG = Instance.new("TextButton")
+	local UICorner_28 = Instance.new("UICorner")
+	local UICorner_29 = Instance.new("UICorner")
+	local UICorner_30 = Instance.new("UICorner")
+	local UICorner_31 = Instance.new("UICorner")
+	local Auto_Text = Instance.new("TextLabel")
+	local UICorner_32 = Instance.new("UICorner")
+	local Stop_auto = Instance.new("TextButton")
+	local UICorner_33 = Instance.new("UICorner")
+	local UICorner_34 = Instance.new("UICorner")
+	local UICorner_35 = Instance.new("UICorner")
+	local soon = Instance.new("TextButton")
+	local soonframe = Instance.new("Frame")
+	local TextLabel_10 = Instance.new("TextLabel")
+	local soonteleport = Instance.new("TextButton")
+	local soonteleport2 = Instance.new("TextButton")
+	local soonteleport3 = Instance.new("TextButton")
+	local soonteleport4 = Instance.new("TextButton")
+	local UICorner_36 = Instance.new("UICorner")
+	local UICorner_37 = Instance.new("UICorner")
+	local UICorner_38 = Instance.new("UICorner")
+	local UICorner_39 = Instance.new("UICorner")
+	local t2 = false
+
+
+	--Properties:
+
+	hacker.Name = "hacker"
+	hacker.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	hacker.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	hacker.ResetOnSpawn = false
+
+	Frame.Parent = hacker
+	Frame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+	Frame.Position = UDim2.new(0.155363768, 0, 0.240384579, 0)
+	Frame.Size = UDim2.new(0, 471, 0, 300)
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+
+
+	UICorner.Parent = Frame
+
+	Framesss.Name = "Framesss"
+	Framesss.Parent = Frame
+	Framesss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Framesss.BackgroundTransparency = 0.800
+	Framesss.Position = UDim2.new(0.787685752, 0, 0.13666667, 0)
+	Framesss.Size = UDim2.new(0, 100, 0, 259)
+
+	UICorner_2.Parent = Framesss
+
+	EarthButton.Name = "EarthButton"
+	EarthButton.Parent = Framesss
+	EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	EarthButton.Position = UDim2.new(0.170000002, 0, 0.108108103, 0)
+	EarthButton.Size = UDim2.new(0, 65, 0, 24)
+	EarthButton.Font = Enum.Font.SourceSans
+	EarthButton.Text = "Earth"
+	EarthButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	EarthButton.TextSize = 14.000
+	EarthButton.MouseButton1Click:Connect(function()
+		EarthButton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Earth.Visible = true
+		ice.Visible = false
+		Hello.Visible = false
+		Moon.Visible = false
+		lava.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_3.Parent = EarthButton
+
+	MoonButton.Name = "MoonButton"
+	MoonButton.Parent = Framesss
+	MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MoonButton.Position = UDim2.new(0.170000002, 0, 0.247104242, 0)
+	MoonButton.Size = UDim2.new(0, 65, 0, 24)
+	MoonButton.Font = Enum.Font.SourceSans
+	MoonButton.Text = "Moon"
+	MoonButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	MoonButton.TextSize = 14.000
+	MoonButton.MouseButton1Click:Connect(function()
+		MoonButton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Moon.Visible = true
+		ice.Visible = false
+		Hello.Visible = false
+		Earth.Visible = false
+		lava.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_4.Parent = MoonButton
+
+	lavaButtton.Name = "lavaButtton"
+	lavaButtton.Parent = Framesss
+	lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	lavaButtton.Position = UDim2.new(0.170000002, 0, 0.389961392, 0)
+	lavaButtton.Size = UDim2.new(0, 65, 0, 24)
+	lavaButtton.Font = Enum.Font.SourceSans
+	lavaButtton.Text = "lava"
+	lavaButtton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	lavaButtton.TextSize = 14.000
+	lavaButtton.MouseButton1Click:Connect(function()
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lava.Visible = true
+		Hello.Visible = false
+		ice.Visible = false
+		Earth.Visible = false
+		Moon.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_5.Parent = lavaButtton
+
+	Stop_auto.Name = "Stop_auto"
+	Stop_auto.Parent = Frame
+	Stop_auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Stop_auto.Position = UDim2.new(-0.0019745063, 0, 0.918108106, 0)
+	Stop_auto.Size = UDim2.new(0, 65, 0, 24)
+	Stop_auto.Font = Enum.Font.SourceSans
+	Stop_auto.Text = "Stop auto"
+	Stop_auto.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Stop_auto.TextSize = 14.000
+	Stop_auto.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		t2 = false
+	end)
+
+	UICorner_33.CornerRadius = UDim.new(0, 5)
+	UICorner_33.Parent = Stop_auto
+
+	iceButton.Name = "iceButton"
+	iceButton.Parent = Framesss
+	iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	iceButton.Position = UDim2.new(0.17, 0,0.537, 0)
+	iceButton.Size = UDim2.new(0, 65, 0, 24)
+	iceButton.Font = Enum.Font.SourceSans
+	iceButton.Text = "ice"
+	iceButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	iceButton.TextSize = 14.000
+	iceButton.MouseButton1Click:Connect(function()
+		iceButton.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ice.Visible = true
+		lava.Visible = false
+		Hello.Visible = false
+		Earth.Visible = false
+		Moon.Visible = false
+		soonframe.Visible = false
+	end)
+
+	UICorner_26.Parent = iceButton
+
+	soon.Name = "soon"
+	soon.Parent = Framesss
+	soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soon.Position = UDim2.new(0.170000002, 0, 0.675996125, 0)
+	soon.Size = UDim2.new(0, 65, 0, 24)
+	soon.Font = Enum.Font.SourceSans
+	soon.Text = "soon"
+	soon.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soon.TextSize = 14.000
+	soon.MouseButton1Click:Connect(function()
+		soon.BackgroundColor3 = Color3.fromRGB(43, 255, 43)
+		iceButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		lavaButtton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		EarthButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MoonButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		soonframe.Visible = true
+		ice.Visible = false
+		lava.Visible = false
+		Hello.Visible = false
+		Earth.Visible = false
+		Moon.Visible = false
+	end)
+
+
+	UICorner_34.Parent = soon
+
+	iceTextLabel.Parent = ice
+	iceTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	iceTextLabel.BackgroundTransparency = 1.000
+	iceTextLabel.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	iceTextLabel.Size = UDim2.new(0, 200, 0, 27)
+	iceTextLabel.Font = Enum.Font.FredokaOne
+	iceTextLabel.Text = "ice"
+	iceTextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	iceTextLabel.TextScaled = true
+	iceTextLabel.TextSize = 14.000
+	iceTextLabel.TextWrapped = true
+
+
+	Earth.Name = "Earth"
+	Earth.Parent = Frame
+	Earth.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	Earth.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	Earth.Size = UDim2.new(0, 329, 0, 226)
+	Earth.Visible = false
+
+	UICorner_6.Parent = Earth
+
+	ice.Name = "ice"
+	ice.Parent = Frame
+	ice.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	ice.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	ice.Size = UDim2.new(0, 329, 0, 226)
+	ice.Visible = false
+
+	UICorner_27.Parent = ice
+
+	TUNNEL.Name = "TUNNEL"
+	TUNNEL.Parent = Earth
+	TUNNEL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TUNNEL.Position = UDim2.new(0.537993968, 0, 0.0442477874, 0)
+	TUNNEL.Size = UDim2.new(0, 102, 0, 42)
+	TUNNEL.Font = Enum.Font.SourceSans
+	TUNNEL.Text = "TUNNEL"
+	TUNNEL.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TUNNEL.TextSize = 14.000
+	TUNNEL.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(-40.3, 4.154, -3820))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_7.Parent = TUNNEL
+
+	BRIDGE.Name = "BRIDGE"
+	BRIDGE.Parent = Earth
+	BRIDGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	BRIDGE.Position = UDim2.new(0.127659574, 0, 0.0442477874, 0)
+	BRIDGE.Size = UDim2.new(0, 102, 0, 42)
+	BRIDGE.Font = Enum.Font.SourceSans
+	BRIDGE.Text = "BRIDGE"
+	BRIDGE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	BRIDGE.TextSize = 14.000
+	BRIDGE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(39.7, 4.154, -3829))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_8.Parent = BRIDGE
+
+	TOWER.Name = "TOWER"
+	TOWER.Parent = Earth
+	TOWER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TOWER.Position = UDim2.new(0.537993908, 0, 0.314159274, 0)
+	TOWER.Size = UDim2.new(0, 102, 0, 42)
+	TOWER.Font = Enum.Font.SourceSans
+	TOWER.Text = "TOWER"
+	TOWER.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TOWER.TextSize = 14.000
+	TOWER.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(320.257, 435.155, -3121.2))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_9.Parent = TOWER
+
+	OBBY.Name = "OBBY"
+	OBBY.Parent = Earth
+	OBBY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	OBBY.Position = UDim2.new(0.127659559, 0, 0.309734523, 0)
+	OBBY.Size = UDim2.new(0, 102, 0, 42)
+	OBBY.Font = Enum.Font.SourceSans
+	OBBY.Text = "OBBY"
+	OBBY.TextColor3 = Color3.fromRGB(0, 0, 0)
+	OBBY.TextSize = 14.000
+	OBBY.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(272.9, 3.154, -3013.4))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_10.Parent = OBBY
+
+	HOLE.Name = "HOLE"
+	HOLE.Parent = Earth
+	HOLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	HOLE.Position = UDim2.new(0.127659559, 0, 0.597345114, 0)
+	HOLE.Size = UDim2.new(0, 102, 0, 42)
+	HOLE.Font = Enum.Font.SourceSans
+	HOLE.Text = "HOLE"
+	HOLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	HOLE.TextSize = 14.000
+	HOLE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(38.9, -1994.896, -2949.9))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_11.Parent = HOLE
+
+	CLIMB.Name = "CLIMB"
+	CLIMB.Parent = Earth
+	CLIMB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CLIMB.Position = UDim2.new(0.537993908, 0, 0.597345114, 0)
+	CLIMB.Size = UDim2.new(0, 102, 0, 42)
+	CLIMB.Font = Enum.Font.SourceSans
+	CLIMB.Text = "CLIMB"
+	CLIMB.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CLIMB.TextSize = 14.000
+	CLIMB.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(-40.5, 123.754, -2397.9))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_12.Parent = CLIMB
+
+	CONVEYOR.Name = "CONVEYOR"
+	CONVEYOR.Parent = Earth
+	CONVEYOR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CONVEYOR.Position = UDim2.new(0.34346503, 0, 0.814159274, 0)
+	CONVEYOR.Size = UDim2.new(0, 102, 0, 42)
+	CONVEYOR.Font = Enum.Font.SourceSans
+	CONVEYOR.Text = "CONVEYOR"
+	CONVEYOR.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CONVEYOR.TextSize = 14.000
+	CONVEYOR.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(-725.9, 4.154, -3121.1))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_13.Parent = CONVEYOR
+
+	TextLabel.Parent = Earth
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel.Font = Enum.Font.FredokaOne
+	TextLabel.Text = "Earth"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+
+	Hello.Name = "Hello"
+	Hello.Parent = Frame
+	Hello.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	Hello.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	Hello.Size = UDim2.new(0, 329, 0, 226)
+
+	UICorner_14.Parent = Hello
+
+	TextLabel_2.Parent = Hello
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.Position = UDim2.new(0.100303948, 0, 0.216814175, 0)
+	TextLabel_2.Size = UDim2.new(0, 263, 0, 127)
+	TextLabel_2.Font = Enum.Font.SourceSans
+	TextLabel_2.Text = "Hello!😁"
+	TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 14.000
+	TextLabel_2.TextWrapped = true
+
+	Auto_Text.Parent = Frame
+	Auto_Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Auto_Text.BackgroundTransparency = 0.000
+	Auto_Text.Position = UDim2.new(0.571, 0,0.052, 0)
+	Auto_Text.Size = UDim2.new(0, 77,0, 22)
+	Auto_Text.Font = Enum.Font.FredokaOne
+	Auto_Text.Text = "Auto"
+	Auto_Text.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Auto_Text.TextScaled = true
+	Auto_Text.TextSize = 14.000
+	Auto_Text.TextWrapped = true
+
+	UICorner_32.Parent = Auto_Text
+
+	TextLabel_3.Parent = Hello
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_3.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_3.Font = Enum.Font.FredokaOne
+	TextLabel_3.Text = "Hello"
+	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.TextScaled = true
+	TextLabel_3.TextSize = 14.000
+	TextLabel_3.TextWrapped = true
+
+	MR_HackGame1.Parent = Frame
+	MR_HackGame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MR_HackGame1.BackgroundTransparency = 1.000
+	MR_HackGame1.Position = UDim2.new(-0, 0,-0.108, 0)
+	MR_HackGame1.Size = UDim2.new(0, 219,0, 37)
+	MR_HackGame1.Font = Enum.Font.FredokaOne
+	MR_HackGame1.Text = "BY: MR_HackGame1"
+	MR_HackGame1.TextColor3 = Color3.fromRGB(255, 255, 255)
+	MR_HackGame1.TextScaled = true
+	MR_HackGame1.TextSize = 14.000
+	MR_HackGame1.TextWrapped = true
+
+	z3ttar_100.Parent = Frame
+	z3ttar_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	z3ttar_100.BackgroundTransparency = 1.000
+	z3ttar_100.Position = UDim2.new(0.481, 0,-0.091, 0)
+	z3ttar_100.Size = UDim2.new(0, 200,0, 27)
+	z3ttar_100.Font = Enum.Font.FredokaOne
+	z3ttar_100.Text = "BY: z3ttar_100"
+	z3ttar_100.TextColor3 = Color3.fromRGB(255, 255, 255)
+	z3ttar_100.TextScaled = true
+	z3ttar_100.TextSize = 14.000
+	z3ttar_100.TextWrapped = true
+
+	Moon.Name = "Moon"
+	Moon.Parent = Frame
+	Moon.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	Moon.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	Moon.Size = UDim2.new(0, 329, 0, 226)
+	Moon.Visible = false
+
+	UICorner_15.Parent = Moon
+
+	TRUSS.Name = "TRUSS"
+	TRUSS.Parent = Moon
+	TRUSS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TRUSS.Position = UDim2.new(0.537993968, 0, 0.230088502, 0)
+	TRUSS.Size = UDim2.new(0, 102, 0, 42)
+	TRUSS.Font = Enum.Font.SourceSans
+	TRUSS.Text = "TRUSS"
+	TRUSS.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TRUSS.TextSize = 14.000
+	TRUSS.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(1063.607, 359.155, -3217.75))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_16.Parent = TRUSS
+
+	DOORS.Name = "DOORS"
+	DOORS.Parent = Moon
+	DOORS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	DOORS.Position = UDim2.new(0.127659574, 0, 0.230088502, 0)
+	DOORS.Size = UDim2.new(0, 102, 0, 42)
+	DOORS.Font = Enum.Font.SourceSans
+	DOORS.Text = "DOORS"
+	DOORS.TextColor3 = Color3.fromRGB(0, 0, 0)
+	DOORS.TextSize = 14.000
+	DOORS.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(982.78, 4.454, -3513.049))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_17.Parent = DOORS
+
+	TRAMPOLINE.Name = "TRAMPOLINE"
+	TRAMPOLINE.Parent = Moon
+	TRAMPOLINE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TRAMPOLINE.Position = UDim2.new(0.127659559, 0, 0.575221241, 0)
+	TRAMPOLINE.Size = UDim2.new(0, 102, 0, 42)
+	TRAMPOLINE.Font = Enum.Font.SourceSans
+	TRAMPOLINE.Text = "TRAMPOLINE"
+	TRAMPOLINE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TRAMPOLINE.TextSize = 14.000
+	TRAMPOLINE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(1063.46, 17.355, -2767.899))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_18.Parent = TRAMPOLINE
+
+	CIRCLE.Name = "CIRCLE"
+	CIRCLE.Parent = Moon
+	CIRCLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CIRCLE.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	CIRCLE.Size = UDim2.new(0, 102, 0, 42)
+	CIRCLE.Font = Enum.Font.SourceSans
+	CIRCLE.Text = "CIRCLE"
+	CIRCLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CIRCLE.TextSize = 14.000
+	CIRCLE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(984.46, 3.355, -2741.899))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_19.Parent = CIRCLE
+
+	TextLabel_4.Parent = Moon
+	TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.BackgroundTransparency = 1.000
+	TextLabel_4.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_4.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_4.Font = Enum.Font.FredokaOne
+	TextLabel_4.Text = "Moon"
+	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.TextScaled = true
+	TextLabel_4.TextSize = 14.000
+	TextLabel_4.TextWrapped = true
+
+	lava.Name = "lava"
+	lava.Parent = Frame
+	lava.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	lava.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	lava.Size = UDim2.new(0, 329, 0, 226)
+	lava.Visible = false
+
+	UICorner_20.Parent = lava
+
+	SLIDE.Name = "SLIDE"
+	SLIDE.Parent = lava
+	SLIDE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SLIDE.Position = UDim2.new(0.537993968, 0, 0.230088502, 0)
+	SLIDE.Size = UDim2.new(0, 102, 0, 42)
+	SLIDE.Font = Enum.Font.SourceSans
+	SLIDE.Text = "SLIDE"
+	SLIDE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	SLIDE.TextSize = 14.000
+	SLIDE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(2087.78, -158.746, -3372.849))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_21.Parent = SLIDE
+
+	STAIRS.Name = "STAIRS"
+	STAIRS.Parent = lava
+	STAIRS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	STAIRS.Position = UDim2.new(0.127659574, 0, 0.230088502, 0)
+	STAIRS.Size = UDim2.new(0, 102, 0, 42)
+	STAIRS.Font = Enum.Font.SourceSans
+	STAIRS.Text = "STAIRS"
+	STAIRS.TextColor3 = Color3.fromRGB(0, 0, 0)
+	STAIRS.TextSize = 14.000
+	STAIRS.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(2007.78, 128.454, -3508.049))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_22.Parent = STAIRS
+
+	LADDER.Name = "LADDER"
+	LADDER.Parent = lava
+	LADDER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LADDER.Position = UDim2.new(0.127659559, 0, 0.575221241, 0)
+	LADDER.Size = UDim2.new(0, 102, 0, 42)
+	LADDER.Font = Enum.Font.SourceSans
+	LADDER.Text = "LADDER"
+	LADDER.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LADDER.TextSize = 14.000
+	LADDER.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(2088.02, 213.854, -2924.05))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_23.Parent = LADDER
+
+	FALL.Name = "FALL"
+	FALL.Parent = lava
+	FALL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	FALL.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	FALL.Size = UDim2.new(0, 102, 0, 42)
+	FALL.Font = Enum.Font.SourceSans
+	FALL.Text = "FALL"
+	FALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+	FALL.TextSize = 14.000
+	FALL.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(2007.9, -1993.896, -2931.9))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_24.Parent = FALL
+
+	JUMP.Name = "JUMP"
+	JUMP.Parent = ice
+	JUMP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	JUMP.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	JUMP.Size = UDim2.new(0, 102, 0, 42)
+	JUMP.Font = Enum.Font.SourceSans
+	JUMP.Text = "JUMP"
+	JUMP.TextColor3 = Color3.fromRGB(0, 0, 0)
+	JUMP.TextSize = 14.000
+	JUMP.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(3111.88, 169.254, -3160.949))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_28.Parent = JUMP
+
+	PIPE.Name = "PIPE"
+	PIPE.Parent = ice
+	PIPE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	PIPE.Position = UDim2.new(0.538, 0,0.23, 0)
+	PIPE.Size = UDim2.new(0, 102, 0, 42)
+	PIPE.Font = Enum.Font.SourceSans
+	PIPE.Text = "PIPE"
+	PIPE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	PIPE.TextSize = 14.000
+	PIPE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(3032.88, 5.255, -2621.949))
+				wait(5)
+			end
+		end
+	end)
+
+
+
+	UICorner_29.Parent = PIPE
+
+	LINE.Name = "LINE"
+	LINE.Parent = ice
+	LINE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LINE.Position = UDim2.new(0.128, 0,0.575, 0)
+	LINE.Size = UDim2.new(0, 102, 0, 42)
+	LINE.Font = Enum.Font.SourceSans
+	LINE.Text = "LINE"
+	LINE.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LINE.TextSize = 14.000
+	LINE.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(3032.18, 6.254, -3437.849))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_30.Parent = LINE
+
+	ZIGZAG.Name = "ZIGZAG"
+	ZIGZAG.Parent = ice
+	ZIGZAG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ZIGZAG.Position = UDim2.new(0.128, 0,0.23, 0)
+	ZIGZAG.Size = UDim2.new(0, 102, 0, 42)
+	ZIGZAG.Font = Enum.Font.SourceSans
+	ZIGZAG.Text = "ZIGZAG"
+	ZIGZAG.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ZIGZAG.TextSize = 14.000
+	ZIGZAG.MouseButton1Click:Connect(function()
+		Stop_auto.BackgroundColor3 = Color3.fromRGB(83, 255, 53)
+		if not t2 then
+			t2 = true
+			local player = game.Players.LocalPlayer
+			while t2 do
+				wait(5)
+				player.Character:MoveTo(Vector3.new(3118.88, 5.254, -2728.949))
+				wait(5)
+			end
+		end
+	end)
+
+
+	UICorner_31.Parent = ZIGZAG
+
+	soonframe.Name = "soonframe"
+	soonframe.Parent = Frame
+	soonframe.BackgroundColor3 = Color3.fromRGB(0, 48, 72)
+	soonframe.Position = UDim2.new(0.0552016981, 0, 0.13666667, 0)
+	soonframe.Size = UDim2.new(0, 329, 0, 226)
+	soonframe.Visible = false
+
+	UICorner_35.Parent = soonframe
+
+	soonteleport.Name = "soonteleport"
+	soonteleport.Parent = soonframe
+	soonteleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport.Position = UDim2.new(0.537993908, 0, 0.575221241, 0)
+	soonteleport.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport.Font = Enum.Font.SourceSans
+	soonteleport.Text = "soonteleport"
+	soonteleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport.TextSize = 14.000
+
+	UICorner_36.Parent = soonteleport
+
+	soonteleport2.Name = "soonteleport2"
+	soonteleport2.Parent = soonframe
+	soonteleport2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport2.Position = UDim2.new(0.128000006, 0, 0.574999988, 0)
+	soonteleport2.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport2.Font = Enum.Font.SourceSans
+	soonteleport2.Text = "soonteleport2"
+	soonteleport2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport2.TextSize = 14.000
+
+	UICorner_37.Parent = soonteleport2
+
+	soonteleport3.Name = "soonteleport3"
+	soonteleport3.Parent = soonframe
+	soonteleport3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport3.Position = UDim2.new(0.537999988, 0, 0.230000004, 0)
+	soonteleport3.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport3.Font = Enum.Font.SourceSans
+	soonteleport3.Text = "soonteleport3"
+	soonteleport3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport3.TextSize = 14.000
+
+	UICorner_38.Parent = soonteleport3
+
+	soonteleport4.Name = "soonteleport4"
+	soonteleport4.Parent = soonframe
+	soonteleport4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	soonteleport4.Position = UDim2.new(0.128000006, 0, 0.230000004, 0)
+	soonteleport4.Size = UDim2.new(0, 102, 0, 42)
+	soonteleport4.Font = Enum.Font.SourceSans
+	soonteleport4.Text = "soonteleport4"
+	soonteleport4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	soonteleport4.TextSize = 14.000
+
+	UICorner_39.Parent = soonteleport4
+
+
+	TextLabel_5.Parent = lava
+	TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.BackgroundTransparency = 1.000
+	TextLabel_5.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_5.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_5.Font = Enum.Font.FredokaOne
+	TextLabel_5.Text = "lava"
+	TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.TextScaled = true
+	TextLabel_5.TextSize = 14.000
+	TextLabel_5.TextWrapped = true
+
+	TextLabel_10.Parent = soonframe
+	TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_10.BackgroundTransparency = 1.000
+	TextLabel_10.Position = UDim2.new(-0.0790273547, 0, -0.18141593, 0)
+	TextLabel_10.Size = UDim2.new(0, 200, 0, 27)
+	TextLabel_10.Font = Enum.Font.FredokaOne
+	TextLabel_10.Text = "..."
+	TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_10.TextScaled = true
+	TextLabel_10.TextSize = 14.000
+	TextLabel_10.TextWrapped = true
+
+	close.Name = "close"
+	close.Parent = Frame
+	close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	close.Position = UDim2.new(0.925689995, 0, -0.0400000028, 0)
+	close.Size = UDim2.new(0, 50, 0, 50)
+	close.Font = Enum.Font.FredokaOne
+	close.Text = "X"
+	close.TextColor3 = Color3.fromRGB(0, 0, 0)
+	close.TextScaled = true
+	close.TextSize = 14.000
+	close.TextWrapped = true
+	close.MouseButton1Click:Connect(function()
+    t2 = false
+		hacker:Destroy()
+	end)
+
+	UICorner_25.CornerRadius = UDim.new(0, 100)
+	UICorner_25.Parent = close
+end)
+
+UICorner_4.Parent = Auto
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(72, 75, 136)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 255))}
+UIGradient_2.Parent = Auto
+while true do
+	wait(0)
+	local button3324 = UIGradient_3
+
+	local rotationAmount = 360
+
+
+	local tweenService = game:GetService("TweenService")
+	local info = TweenInfo.new(4, Enum.EasingStyle.Linear)
+
+	local property = {Rotation = button3324.Rotation + rotationAmount}
+	local tween = tweenService:Create(button3324, info, property)
+	tween:Play()
+
+	local button3324 = UIGradient_2
+
+	local rotationAmount = 360
+
+
+	local tweenService = game:GetService("TweenService")
+	local info = TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+	local property = {Rotation = button3324.Rotation + rotationAmount}
+	local tween = tweenService:Create(button3324, info, property)
+	tween:Play()
+	wait(0)
+end
+
+
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.195137933, 0, 0.0730613545, 0)
+TextLabel.Size = UDim2.new(0.60853219, 0, 0.241273135, 0)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Select to Button"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
